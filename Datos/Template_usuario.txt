@@ -1,0 +1,5 @@
+Buenos dias,
+
+Su certificado {0} con nº de serie {1} esta a punto de caducar
+
+saludos
