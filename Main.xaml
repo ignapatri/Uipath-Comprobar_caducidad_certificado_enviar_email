@@ -71,7 +71,6 @@
       <AssemblyReference>UiPath.OCR.Activities.Design</AssemblyReference>
       <AssemblyReference>System.Memory</AssemblyReference>
       <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
-      <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
       <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
       <AssemblyReference>UiPath.Mail.Activities.Design</AssemblyReference>
     </scg:List>
@@ -172,12 +171,12 @@
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
-                  <ui:SendMail Bcc="{x:Null}" Cc="{x:Null}" From="{x:Null}" MailMessage="{x:Null}" Name="{x:Null}" ReplyTo="{x:Null}" SecurePassword="{x:Null}" TimeoutMS="{x:Null}" Body="[String.Format(varStrTemSop.ToString, row(&quot;Tipo&quot;).ToString, row(&quot;Usuario&quot;).ToString,row(&quot;Num_de_serie&quot;).ToString)]" DisplayName="Correo a soporte Vip" Email="imartinportillo@gmail.com" EnableSSL="True" sap:VirtualizedContainerService.HintSize="333.6,146.4" sap2010:WorkflowViewState.IdRef="SendMail_1" IsBodyHtml="False" Password="Patricita@1971" Port="465" SecureConnection="Auto" Server="smtp.gmail.com" Subject="[&quot;Certificado &quot; + Row(&quot;Tipo&quot;).ToString + &quot; va a caducar&quot;]" To="soportevip@company.com">
+                  <ui:SendMail Bcc="{x:Null}" Cc="{x:Null}" From="{x:Null}" MailMessage="{x:Null}" Name="{x:Null}" ReplyTo="{x:Null}" SecurePassword="{x:Null}" TimeoutMS="{x:Null}" Body="[String.Format(varStrTemSop.ToString, row(&quot;Tipo&quot;).ToString, row(&quot;Usuario&quot;).ToString,row(&quot;Num_de_serie&quot;).ToString)]" DisplayName="Correo a soporte Vip" Email="username@company.com" EnableSSL="True" sap:VirtualizedContainerService.HintSize="333.6,146.4" sap2010:WorkflowViewState.IdRef="SendMail_1" IsBodyHtml="False" Password="Password" Port="465" SecureConnection="Auto" Server="smtp.gmail.com" Subject="[&quot;Certificado &quot; + Row(&quot;Tipo&quot;).ToString + &quot; va a caducar&quot;]" To="soportevip@company.com">
                     <ui:SendMail.Files>
                       <scg:List x:TypeArguments="InArgument(x:String)" Capacity="0" />
                     </ui:SendMail.Files>
                   </ui:SendMail>
-                  <ui:SendMail Bcc="{x:Null}" Cc="{x:Null}" From="{x:Null}" MailMessage="{x:Null}" Name="{x:Null}" ReplyTo="{x:Null}" SecurePassword="{x:Null}" TimeoutMS="{x:Null}" Body="[String.Format(varStrTemSop.ToString, row(&quot;Tipo&quot;),row(&quot;Num_de_serie&quot;).ToString)]" DisplayName="Correo al Usuario" Email="imartinportillo@gmail.com" EnableSSL="True" sap:VirtualizedContainerService.HintSize="333.6,146.4" sap2010:WorkflowViewState.IdRef="SendMail_3" IsBodyHtml="False" Password="Patricita@1971" Port="465" SecureConnection="Auto" Server="smtp.gmail.com" Subject="[&quot;Certificado &quot; + Row(&quot;Tipo&quot;).ToString + &quot; va a caducar&quot;]" To="[Row(&quot;Correo&quot;).ToString]">
+                  <ui:SendMail Bcc="{x:Null}" Cc="{x:Null}" From="{x:Null}" MailMessage="{x:Null}" Name="{x:Null}" ReplyTo="{x:Null}" SecurePassword="{x:Null}" TimeoutMS="{x:Null}" Body="[String.Format(varStrTemSop.ToString, row(&quot;Tipo&quot;),row(&quot;Num_de_serie&quot;).ToString)]" DisplayName="Correo al Usuario" Email="username@company.com" EnableSSL="True" sap:VirtualizedContainerService.HintSize="333.6,146.4" sap2010:WorkflowViewState.IdRef="SendMail_3" IsBodyHtml="False" Password="Password" Port="465" SecureConnection="Auto" Server="smtp.gmail.com" Subject="[&quot;Certificado &quot; + Row(&quot;Tipo&quot;).ToString + &quot; va a caducar&quot;]" To="[Row(&quot;Correo&quot;).ToString]">
                     <ui:SendMail.Files>
                       <scg:List x:TypeArguments="InArgument(x:String)" Capacity="0" />
                     </ui:SendMail.Files>
@@ -191,12 +190,12 @@
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
-                  <ui:SendMail Bcc="{x:Null}" Cc="{x:Null}" From="{x:Null}" MailMessage="{x:Null}" Name="{x:Null}" ReplyTo="{x:Null}" SecurePassword="{x:Null}" TimeoutMS="{x:Null}" Body="[String.Format(varStrTemSop.ToString, row(&quot;Tipo&quot;).ToString, row(&quot;Usuario&quot;).ToString,row(&quot;Num_de_serie&quot;).ToString)]" DisplayName="Correo a soporte normal" Email="imartinportillo@gmail.com" EnableSSL="True" sap:VirtualizedContainerService.HintSize="333.6,146.4" sap2010:WorkflowViewState.IdRef="SendMail_2" IsBodyHtml="False" Password="Patricita@1971" Port="465" SecureConnection="Auto" Server="smtp.gmail.com" Subject="[&quot;Certificado &quot; + Row(&quot;Tipo&quot;).ToString + &quot; va a caducar&quot;]" To="soporte@company.com">
+                  <ui:SendMail Bcc="{x:Null}" Cc="{x:Null}" From="{x:Null}" MailMessage="{x:Null}" Name="{x:Null}" ReplyTo="{x:Null}" SecurePassword="{x:Null}" TimeoutMS="{x:Null}" Body="[String.Format(varStrTemSop.ToString, row(&quot;Tipo&quot;).ToString, row(&quot;Usuario&quot;).ToString,row(&quot;Num_de_serie&quot;).ToString)]" DisplayName="Correo a soporte normal" Email="username@company.com" EnableSSL="True" sap:VirtualizedContainerService.HintSize="333.6,146.4" sap2010:WorkflowViewState.IdRef="SendMail_2" IsBodyHtml="False" Password="Password" Port="465" SecureConnection="Auto" Server="smtp.gmail.com" Subject="[&quot;Certificado &quot; + Row(&quot;Tipo&quot;).ToString + &quot; va a caducar&quot;]" To="soporte@company.com">
                     <ui:SendMail.Files>
                       <scg:List x:TypeArguments="InArgument(x:String)" Capacity="0" />
                     </ui:SendMail.Files>
                   </ui:SendMail>
-                  <ui:SendMail Bcc="{x:Null}" Cc="{x:Null}" From="{x:Null}" MailMessage="{x:Null}" Name="{x:Null}" ReplyTo="{x:Null}" SecurePassword="{x:Null}" TimeoutMS="{x:Null}" Body="[String.Format(varStrTemSop.ToString, row(&quot;Tipo&quot;),row(&quot;Num_de_serie&quot;).ToString)]" DisplayName="Correo al Usuario" Email="imartinportillo@gmail.com" EnableSSL="True" sap:VirtualizedContainerService.HintSize="333.6,146.4" sap2010:WorkflowViewState.IdRef="SendMail_4" IsBodyHtml="False" Password="Patricita@1971" Port="465" SecureConnection="Auto" Server="smtp.gmail.com" Subject="[&quot;Certificado &quot; + Row(&quot;Tipo&quot;).ToString + &quot; va a caducar&quot;]" To="[Row(&quot;Correo&quot;).ToString]">
+                  <ui:SendMail Bcc="{x:Null}" Cc="{x:Null}" From="{x:Null}" MailMessage="{x:Null}" Name="{x:Null}" ReplyTo="{x:Null}" SecurePassword="{x:Null}" TimeoutMS="{x:Null}" Body="[String.Format(varStrTemSop.ToString, row(&quot;Tipo&quot;),row(&quot;Num_de_serie&quot;).ToString)]" DisplayName="Correo al Usuario" Email="username@company.com" EnableSSL="True" sap:VirtualizedContainerService.HintSize="333.6,146.4" sap2010:WorkflowViewState.IdRef="SendMail_4" IsBodyHtml="False" Password="Password" Port="465" SecureConnection="Auto" Server="smtp.gmail.com" Subject="[&quot;Certificado &quot; + Row(&quot;Tipo&quot;).ToString + &quot; va a caducar&quot;]" To="[Row(&quot;Correo&quot;).ToString]">
                     <ui:SendMail.Files>
                       <scg:List x:TypeArguments="InArgument(x:String)" Capacity="0" />
                     </ui:SendMail.Files>
